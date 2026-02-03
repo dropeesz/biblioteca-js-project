@@ -1,0 +1,32 @@
+<DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>pagina exemplo</title>
+</head>
+<body>
+    <header>
+        <h1> BIBLIOTECA DO PEDRO</h1>
+        <button id="cadastro" onclick="main()">cadastrar livros</button>
+        <button id="relat" onclick="relatorio()">relatório</button>
+        <button id="excluir" onclick="excluir()">excluir livros</button>
+        <label for="busca">nome do livro:</label>
+        <input type="text" id="busca" placeholder="Digite o livro desejado">
+        <button onclick="buscarLivro()">Pesquisar livro</button>
+        <input type="number" id="bookUnits" placeholder="digite o numero de unidades">
+        <button onclick="alterarunidades()">alterar unidades</button>
+        <h2> estoque </h2>
+        <ul id="booklist"></ul>
+    </header>
+    <main>
+        <p>Este é um exemplo de estrutura básica de HTML</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Site By Pedro. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>        
+
+<script src="lybrary.js"></script>
