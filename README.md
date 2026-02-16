@@ -34,6 +34,8 @@ O objetivo foi aplicar os conceitos de manipulação de DOM, lógica de programa
 biblioteca-js-project/
 ├── index.html
 ├── lybrary.js
+├── lybrary2.js
+├── style.css
 └── README.md
 ```
 
